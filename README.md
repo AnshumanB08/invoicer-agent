@@ -1,4 +1,4 @@
-# invoicer-agent
+# Invoicer-Agent
 
 Automates matching invoices against purchase orders, flags discrepancies, drafts vendor follow-up emails, and queues payments.
 
@@ -111,9 +111,6 @@ Below are the visual representations of the invoicer-agent system:
 ### Architecture / Workflow Diagram
 ![Workflow Diagram](assets/architecture_diagram.png)
 
-### Cover Banner
-![Cover Banner](assets/cover_page_banner.png)
-
 ## Demo Script
 
 A complete narrative guide for presenting the project is available at [DEMO_SCRIPT.txt](file:///z:/Vibe%20Coding/AI%20Agents/adk-workspace/invoicer-agent/DEMO_SCRIPT.txt).
@@ -130,32 +127,3 @@ A complete narrative guide for presenting the project is available at [DEMO_SCRI
      ```
 3. **API Key 404/403 Errors**
    - *Fix*: Ensure `GOOGLE_API_KEY` in `.env` is set correctly and the model in `.env` is `gemini-2.5-flash` or `gemini-2.5-flash-lite` (do not use retired `gemini-1.5-*` models).
-
-## Push to GitHub
-
-1. Create a new repo at https://github.com/new
-   - Name: invoicer-agent
-   - Visibility: Public or Private
-   - Do NOT initialize with README (you already have one)
-
-2. In your terminal, navigate into your project folder:
-   ```bash
-   cd invoicer-agent
-   git init
-   git add .
-   git commit -m "Initial commit: invoicer-agent ADK agent"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/invoicer-agent.git
-   git push -u origin main
-   ```
-
-3. Verify .gitignore includes:
-   ```
-   .env          # your API key — must NEVER be pushed
-   .venv/
-   __pycache__/
-   *.pyc
-   .adk/
-   ```
-
-⚠ NEVER push .env to GitHub. Your API key will be exposed publicly.
