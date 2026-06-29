@@ -111,10 +111,6 @@ Below are the visual representations of the invoicer-agent system:
 ### Architecture / Workflow Diagram
 ![Workflow Diagram](assets/architecture_diagram.png)
 
-## Demo Script
-
-A complete narrative guide for presenting the project is available at [DEMO_SCRIPT.txt](file:///z:/Vibe%20Coding/AI%20Agents/adk-workspace/invoicer-agent/DEMO_SCRIPT.txt).
-
 ## Troubleshooting
 
 1. **Error: `ModuleNotFoundError: No module named 'mcp'`**
